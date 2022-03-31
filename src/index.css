@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.registration{
+  border: 1px solid gray;
+  margin: 1rem 10rem;
+  padding:0.5rem 7rem ;
+}
+.heading{
+  text-align:center;
+}
+.buttons button{
+  border:none;
+  text-align: center;
+  padding: 7px 55px;
+  margin-right: 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  outline: none;
+  margin-top:20px
+}
+.buttons .register{
+background-color:rgb(51,123,186);
+color:#fff;
+margin-left: 41px;
+} 
+.buttons .reset{
+  background-color:transparent;
+  color:rgb(51,123,186);
+  border:1px solid rgb(51,123,186);
+}
+.buttons .cancel{
+  color:#fff;
+  background-color: rgb(195,195,195);
+}
+.first input{
+  margin-left: 15px;
+}
+.last input{
+  margin-left: 20px;
+  margin-top: 19px;
+}
+.dob input{
+  margin-left: 58px;
+  padding:0px 10px;
+  margin-top: 19px;
+
+}
+.email input{
+  margin-left: 35px;
+  margin-top: 19px;
+
+}
+.phone input{
+  margin-left: 20px ;
+  margin-top: 19px;
+
+}
+.gender input{
+margin: 0px 5px 0px 35px; 
+margin-top: 123px;
+
+}
+.label-gender{
+      /* margin-top: 20px; */
+    /* margin-left: -278px; */
+    /* margin-right: 68px; */
+    position: absolute;
+    left: 37%;
+    top: 44%;
+}
+.language input {
+   margin: 0px 5px 0px 19px; 
+  margin-top: 19px;
+  /* margin-left:102px */
+
+}
+.qualification {
+  margin-top: 15px;
+  padding:0px 10px;
+
+
+}
+.user input{
+  margin-left: 15px; 
+  margin-top: 19px;
+
+}
+.password input{
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.login-btn{
+  background-color: rgb(51,123,186);
+  color: #fff;
+  margin-top: 27px;
+  margin-left: -89px;
+}
+.newuser{
+  margin-top: -24px;
+  margin-left: 157px;
+}
+ .label-div{
+  width: 65%;
+  float: left;
+  text-align: center;
+  margin-top: 0%;
+}
+.input-div{
+  width: 48%;
+  float: left;
+  margin-left: 27%;
+  margin-top: -20px;
+}
+.register-btn{
+  margin-top: -5%;
+  text-align: center;
+  margin-left: 42%;
+}
